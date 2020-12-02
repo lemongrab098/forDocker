@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'forDocker'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-7'
+    implementation 'org.testng:testng:7.3.0'
+    implementation 'org.projectlombok:lombok:1.18.16'
+    implementation 'org.slf4j:slf4j-api:2.0.0-alpha1'
+    implementation 'org.slf4j:slf4j-jdk14:2.0.0-alpha1'
+}
+
+test {
+    useTestNG()
+}
+
