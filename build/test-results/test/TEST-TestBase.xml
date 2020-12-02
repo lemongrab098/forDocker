@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestBase" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-02T22:09:49" hostname="DESKTOP-0BVHIUM" time="6.709">
+<testsuite name="TestBase" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-02T22:41:43" hostname="DESKTOP-0BVHIUM" time="4.147">
   <properties/>
-  <testcase name="test" classname="TestBase" time="6.709"/>
+  <testcase name="test" classname="TestBase" time="4.147"/>
   <system-out><![CDATA[bla
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 30509
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Dec 03, 2020 1:09:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Dec 03, 2020 1:09:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 87, so returning the closest version found: 86
-Dec 03, 2020 1:09:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 87 of 86
+  <system-err><![CDATA[1606948907044	Marionette	INFO	Stopped listening on port 6364
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
 ]]></system-err>
 </testsuite>
