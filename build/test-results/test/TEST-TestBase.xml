@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestBase" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-02T22:41:43" hostname="DESKTOP-0BVHIUM" time="4.147">
+<testsuite name="TestBase" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-02T22:46:12" hostname="DESKTOP-0BVHIUM" time="4.367">
   <properties/>
-  <testcase name="test" classname="TestBase" time="4.147"/>
+  <testcase name="test" classname="TestBase" time="4.367"/>
   <system-out><![CDATA[bla
 ]]></system-out>
-  <system-err><![CDATA[1606948907044	Marionette	INFO	Stopped listening on port 6364
+  <system-err><![CDATA[1606949175525	Marionette	INFO	Stopped listening on port 6626
+[Child 2668, Chrome_ChildThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:545
 
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
