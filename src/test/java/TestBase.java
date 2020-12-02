@@ -13,13 +13,12 @@ public class TestBase {
     public void init() {
         driver = new FirefoxDriver();
     }
-//testtest
+
     @Test
     public void test() throws InterruptedException {
         System.out.println("bla");
         driver.navigate().to("https://google.com");
         Thread.sleep(2000);
         driver.quit();
-        //test
     }
 }
